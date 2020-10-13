@@ -1,0 +1,292 @@
+/*---------- PINGS AND MENTIONS ----------*/
+/*Updated 09/12/2020*/
+.numberBadge-2s8kKX {/*Fancier Pings*/
+  background-color: solid var(--main-color);
+  height: 18px;
+  width: 18px !important;
+  margin-bottom: -3px;
+  margin-right: -5px;
+  border: 1px solid var(--main-color);
+}
+.theme-dark .mentioned-xhSam7,
+.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, 
+.mouse-mode.full-motion .mentioned-xhSam7:hover {
+  background: var(--secondarytransparent-color); /* You will have to change this RGBA value if you change main-color */
+  border: 0px solid var(--main-color); /* You will have to change this RGBA value if you change main-color */
+}
+/*---------- COLORED TEXT ----------*/
+/*Updated 09/12/2020, thanks to cv discord for giving me the thing about changing server names*/
+.textArea-12jD-V.slateContainer-3Qkn2x > .markup-2BOw-j{ /*Changes text color for when you're actually typing*/
+	color: var(--main-text-color);
+}
+.guildNameText-74xXQn,
+.markupRtl-3M0hmN,
+.cozy-3raOZG,
+.messageContent-2qWWxC,
+.input-1Rv96N,
+.searchBar-3dMhjb,
+.input-2VB9rf,
+.title-eS5yk3 { /*Message text colour, inputs, searcbars etc*/
+ color: var(--main-text-color) !important;
+}
+
+
+.content-3QAtGj:focus {
+    color: #f3efef !important;
+}
+
+/*---------- More Colours ----------*/
+/*Header n options icons*/
+.icon-LYJorE,
+.button-1w5pas {
+	color: var(--main-color);
+}
+
+/*Mute, Deafen, settings, Game icon*/
+.button-14-BFJ>.contents-18-Yxp>svg,
+.gameIcon-gg34Dz,
+.gameIcon-2YB8Et{
+	color: var(--main-color);
+}
+
+
+/*Tags*/
+.tag-wWVHyf, .botTag-3W9SuW, .px-10SIf7 {
+	color: #000000;
+	background: var(--main-color) !important;
+}
+
+/*Coloured emoji picker and several menus*/
+.contentWrapper-SvZHNd,
+.quickswitcher-3JagVE,
+.unicodeShortcut-15J8Ck,
+.messagesPopoutWrap-1MQ1bW,
+.uploadModal-2ifh8j,
+.scroller-3BxosC {
+background: var(--secondarytransparent-color) !important;
+}   
+.unicodeShortcut-15J8Ck>svg{
+ color: var(--secondary-color) !important;
+
+}  
+
+/*Emoji button opacity animation*/
+.sprite-2iCowe {
+	filter: grayscale(0) opacity(60%) !important;
+	transition: filter 0.1s;
+}
+.sprite-2iCowe:hover {
+	filter: grayscale(0) opacity(100%) !important;
+	transition: filter 0.1s;
+ }
+
+/*Channels hover colour*/
+.content-3at_AU:hover {
+	background: var(--hover-color) !important;
+} 
+
+/*Category Hover*/
+.categoryIcon-1SvUHG:hover { 
+color: var(--hover-color) !important;
+} 
+
+/*User profile bg*/
+.root-SR8cQa {
+    max-height: 100vh;
+    background: transparent;
+	box-shadow: 0 0 30px 0px var(--main-color);
+	
+}
+
+/*---------- Text Colours ----------*/
+/*settings text*/
+.item-PXvHYJ {
+	color:rgba(255, 227, 100, 0.5) !important;	
+}
+
+
+/*Unread messages NEW text*/
+.unreadPill-2HyYtt {
+	color: black !important;
+}
+
+/*Timestampt*/
+.timestamp-3ZCmNB {
+	color: var(--secondary-darker-color) !important;
+}
+
+/*Public Servers text*/
+.wrapper-25eVIn{
+	color: var(--main-text-color) !important;
+}  
+
+/*emoji picker, pins, options, tooltips, headers, welcome message, nicknames, etc text*/
+.headerLabel-3dG4M-,
+.titlePrimary-1jHRGm,
+.titleSecondary-3Dh_RZ,
+.input-1Rv96N,
+.wrapper-1sSZUt,
+.label-22pbtT,
+.tooltip-2QfLtc,
+.header-3uLluP,
+.description-1sDbzS,
+.size16-1P40sf,
+.nicknames-1XK4Zt,
+.container-1r6BKw .topPill-30KHOu .item-PXvHYJ.themed-OHr7kt{
+	color: var(--main-text-color) !important;
+}
+
+/*Add friend button text*/
+.item-3HknzM {
+	color: #ffffff !important;
+	background-color: var(--main-color) !important;
+	text-shadow:0 0 3px rgb(14, 0, 0);
+}
+
+/*Empty channel Icon*/
+.emptyChannelIcon-cc932w {
+	background-color: var(--main-text-color) !important;
+}
+
+
+.selected-3s45Ha {
+color:#000000 !important;
+
+}
+
+/*Channel name, description, etc text*/
+.title-29uC1r,
+.topic-TCb_qw,
+.name-3YKhmS { 
+ color: var(--main-text-color) !important;
+}
+
+/*Friends, nitro, DM name list n activity colour*/
+.container-2Pjhx- .name-uJV0GL{
+	color:var(--main-text-color);
+}
+
+.container-2Pjhx-.selected-aXhQR6 .name-uJV0GL{
+	color:rgb(255, 255, 255)
+}
+
+.container-2Pjhx- .activity-525YDR,.container-2Pjhx- .subText-1KtqkB,.container-2Pjhx- .activityText-OW8WYb,.container-2Pjhx- .activity-2Gy-9S,.container-2Pjhx- .activityText-yGKsKm{
+	color:rgba(255, 227, 100, 0.8);
+	transition:all .15s ease-in-out
+}
+
+.container-2Pjhx- .subText-1KtqkB>strong,.container-2Pjhx- .activityText-OW8WYb>strong,.container-2Pjhx- .activityText-yGKsKm>strong{
+	color:var(--main-color);
+	font-weight:700;
+	transition:all .15s ease-in-out
+}
+
+.container-2Pjhx-.selected-aXhQR6 .activity-525YDR,.container-2Pjhx-.selected-aXhQR6 .subText-1KtqkB,.container-2Pjhx-.selected-aXhQR6 .activityText-OW8WYb,.container-2Pjhx-.selected-aXhQR6 .activity-2Gy-9S,.container-2Pjhx-.selected-aXhQR6 .activityText-yGKsKm{
+	text-shadow:0 0 3px rgba(14, 0, 0, 0.7);
+	color:rgba(255, 255, 255, 0.980)
+}
+
+/*settings hover*/
+.standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:hover{
+	background:rgba(255, 237, 155, 0.2);
+}
+
+
+
+/*---------- SERVER GLOW ----------*/
+/*Updated 09/12/2020*/
+.bd-selected{ /*Glow on selected server*/
+  box-shadow: 0 0 20px 0 var(--main-color);
+  border-radius: 50%;
+
+}
+.bd-guild:hover{ /*Glow on hovering a channel*/
+  box-shadow: 0 0 30px 0 var(--main-color);
+  border-radius: 50%;
+  transition: box-shadow 200ms;
+}
+/*Server Glow fix*/
+.listItem-2P_4kh {
+	width: 50px;
+  margin: 6px 10px;
+}
+.item-2hkk8m,
+.wrapper-sa6paO {
+	width: 5px;
+	height: 5px;
+	margin: 10px -5px;
+}
+
+/*---------- Transparency ----------*/
+/*Updated 09/12/2020*/
+.scrollableContainer-2NUZem { /*Transparent text field*/
+ background: transparent !important;
+}
+
+/*---------- Version of theme text----------*/
+/*Updated 09/12/2020*/
+
+.typeWindows-1za-n7>.wordmark-2iDDfm:before{
+	color: rgba(255, 212, 22, 0.8);
+}
+.typeWindows-1za-n7>.wordmark-2iDDfm:after{
+	color: rgba(255, 212, 22, 0.6);
+}
+
+.container-3baos1:before{
+	content:"ClearVision";
+	color: rgba(255, 212, 22, 0.5);
+}
+
+.container-3baos1:after{
+	content:"v6.0.1";
+	color: rgba(255, 212, 22, 0.5);
+
+}
+
+/* BD settings fixes */
+.bd-switch {
+    background: var(--hover-color);
+}
+.bd-switch-checked {
+    background-color: var(--main-color);
+}
+.theme-dark .bd-addon-list .bd-addon-card {
+    background-color: var(--secondarytransparent-color);
+    border-color: var(--backdrop-overlay);
+}
+.bd-pfbtn, .bda-slist .bda-footer button {
+    background: var(--main-color);
+    transition: all .3s ease-in-out;
+}
+.bd-pfbtn:hover, .bda-slist .bda-footer button:hover {
+    background: var(--hover-color);
+    transition: all .3s ease-in-out;
+}
+.bd-addon-list a {
+    color: var(--main-color);
+}
+.theme-light .quickSelectPopout-u2dtIf, .theme-dark .quickSelectPopout-u2dtIf, .bd-search-wrapper {
+    background-color: var(--background-overlay);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    background-color: var(--success-color) !important;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    background-color: var(--online-color) !important;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-color: var(--danger-color);
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    background-color: var(--dnd-color);
+}
+.button-38aScr[style*="67, 181, 129"] {
+    background-color: var(--online-color) !important;
+}
+.button-38aScr.colorRed-1TFJan[style*="240, 71, 71"] {
+    background-color: var(--dnd-color) !important;
+}
+.notice-2FJMB4.noticeInfo-3_iTE1 {
+    background: var(--main-color);
+}
